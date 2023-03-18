@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+body{   
+    margin: 100px 100px 100px 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+#info-section{
+    width: 75%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.individual-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border: solid 1px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin: 10px 0px 50px 0px;
+    padding-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.individual-info input{
+    margin: 10px 0px 10px 0px;
+    padding: 12px 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.individual-info form{
+    width: 80%;
+}
+
+
+/* RESUME */
+
+#resume-section{
+    width: 100%;
+    height: 600px;
+}
+
+#resume{
+    border: dotted 1px;
+    padding: 25px 10px 25px 10px;
+}
+
+.personal-info{
+    text-align: center;
+}
+
+.personal-info h3{
+    margin:0px;
+}
+
+.education-section p{
+    margin: 10px;
+}
+
+.work-experience p{
+    margin: 10px;
 }
