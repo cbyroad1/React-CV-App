@@ -17,7 +17,7 @@ class EducationInfo extends Component {
         return(
             <div>
                 <div className='individual-info'>
-                    <h3>Education Info:</h3>
+                    <h3>Educational Background</h3>
                     <form>
                         <p>Degree</p>
                         <input type='text' name="degree" onChange={this.handleChange} ></input>

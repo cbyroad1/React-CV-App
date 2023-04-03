@@ -1,5 +1,7 @@
 body{   
     margin: 100px 100px 100px 100px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right, #00b4d8, #caf0f8);
 }
 
 #main-section{
@@ -18,11 +20,12 @@ body{
     flex-direction: column;
     align-items: center;
     width: 80%;
-    border: solid 1px;
     border-radius: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     box-sizing: border-box;
     margin: 10px 0px 50px 0px;
     padding-bottom: 50px;
+    background-color: white;
 }
 
 .individual-info input{
@@ -30,15 +33,30 @@ body{
     padding: 12px 20px;
     width: 100%;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     box-sizing: border-box;
+}
+
+.individual-info p{
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 .individual-info form{
     width: 80%;
 }
 
+#experience-button{
+    font-family: Montserrat, sans-serif;
+    margin-top: 15px;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #48cae4;
+    color: #ffff;
+    font-weight: bold;
 
+}
 /* RESUME */
 
 #resume-section{
@@ -48,7 +66,9 @@ body{
 
 #resume{
     border: dotted 1px;
-    padding: 25px 10px 25px 10px;
+    padding: 50px 20px 100px 20px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .personal-info{

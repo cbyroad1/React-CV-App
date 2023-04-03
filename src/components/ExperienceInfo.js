@@ -23,7 +23,7 @@ class ExperienceInfo extends Component {
                 {this.props.experiences.map((experience) =>{
                     return(
                         <div className='individual-info'>
-                            <h3>Work Experience:</h3>
+                            <h3>Work Experience</h3>
                             <form>
                                 <p>Company</p>
                                 <input type='text' name="company" onChange={(e) => this.updateExperience(e, experience.id)} ></input>
@@ -38,9 +38,9 @@ class ExperienceInfo extends Component {
                                 <p>End Date</p>
                                 <input type='text' name="end" onChange={(e) => this.updateExperience(e, experience.id)}></input>
                                 <p>Description</p>                   
-                                <textarea type='text' name="description" onChange={(e) => this.updateExperience(e, experience.id)}></textarea>
+                                <textarea type='text' name="description" rows='6' cols='40' onChange={(e) => this.updateExperience(e, experience.id)}></textarea>
                             </form>
-                            <button onClick={this.addExperience}>Add Experience</button>
+                            <button id='experience-button' onClick={this.addExperience}>Add Experience</button>
                         </div>
                     );
                 })}

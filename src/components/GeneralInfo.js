@@ -17,7 +17,7 @@ class GeneralInfo extends Component {
         return(
             <div>
                 <div className='individual-info'>
-                    <h3>General Info:</h3>
+                    <h3>General Information</h3>
                     <form>
                         <p>First Name</p>
                         <input type='text' name="name" className='form-control' onChange={this.updateGeneral} ></input>
